@@ -47,15 +47,6 @@ body{
 }
 
 
-
-/* .header {
-    display: flex;
-    z-index: 1000;
-    background-color: #372036;
-    justify-content: center;
-    align-items: center;
-} */
-
 .overlay-link {
     width: 100px;
     height: 100px;
@@ -80,38 +71,6 @@ nav a{
     font-weight: 600;
 }
 
-/* .nav__list {
-    padding-inline-start: 0;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    align-items: center;
-} */
-
-/* .nav__item {
-    text-decoration: none;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-
-    color: #e7e495;
-    font-size: 20px;
-    font-weight: bold;
-
-    margin: 0 120px;
-    
-    transition: 0.2s;
-} */
-
-/* .icon {
-    display: inline-block;
-    margin: auto;
-
-    position: absolute;
-
-    transition: 0.2s;
-} */
-
 
 .overlay-link .icon {
     z-index: 1001;
@@ -131,12 +90,6 @@ nav a{
 
 
 .button__circle {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%; */
-
-
     display: absolute;
     margin: 125px 0px 0px 0px;
     animation-name: rotation;
@@ -144,18 +97,7 @@ nav a{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-/* .button__down{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 0 auto; 
-    
-} */
 
-.class__button {
-    position: relative;
-    bottom: 0;
-}
 
     
 
@@ -227,86 +169,6 @@ nav a{
 
 .signup a{
     font-size: 15px;
-}
-
-/*                                              FORUM PAGE                                              */
-/*           FORM          */
-.search-container {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    text-align: center;
-}
-
-.search-input {
-    flex: 1;
-    padding: 8px;
-    box-sizing: border-box;
-    border: none;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: #372036;
-    color: #fff;
-    padding: 8px 20px;
-    text-transform:uppercase;
-}
-
-.search-input::placeholder {
-    color: #685966;
-    font-weight: 700;
-}
-
-.search-button {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border: none;
-    cursor: pointer;
-    background-color: #372036;
-    justify-content: center;
-    align-items: center;
-}
-
-/*          Threads          */
-.forum {
-    margin: 5px 15px;
-    background-color: #372036;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-.row {
-    background-color: #453143;
-    border-radius: 20px;
-    padding: 15px;
-    margin: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #685966;
-    font-weight: 700;
-}
-
-h4 {
-    color: #e7e495;
-    margin: 0;
-}
-
-.bottom {
-    display: flex;
-}
-
-.timestamp {
-    padding-right: 10px;
-}
-
-p {
-    margin: 5px 0;
-    font-family: sans-serif; 
-    color: #685966;
 }
 
 
